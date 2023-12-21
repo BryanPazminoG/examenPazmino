@@ -1,7 +1,6 @@
 package ec.edu.espe.examen.Pazmino.service;
 
 import java.sql.Date;
-import java.time.LocalDate;
 
 import org.springframework.stereotype.Service;
 

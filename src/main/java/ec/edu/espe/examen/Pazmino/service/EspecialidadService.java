@@ -1,7 +1,5 @@
 package ec.edu.espe.examen.Pazmino.service;
 
-import java.util.List;
-
 import org.springframework.stereotype.Service;
 
 import ec.edu.espe.examen.Pazmino.dao.EspecialidadRepository;
