@@ -28,7 +28,7 @@ public class Docente {
     private Integer codigo;
 
     @Column(name = "COD_ESPECIALIDAD", nullable = false, length = 10)
-    private String codigoInstitucion;
+    private String codigoEspecialidad;
     
     @Column(name = "CEDULA", nullable = false, length = 10)
     private String cedula;
@@ -78,7 +78,7 @@ public class Docente {
 
     @Override
     public String toString() {
-        return "Docente [codigo=" + codigo + ", codigoInstitucion=" + codigoInstitucion + ", cedula=" + cedula
+        return "Docente [codigo=" + codigo + ", codigoEspecialidad=" + codigoEspecialidad + ", cedula=" + cedula
                 + ", nombre=" + nombre + ", fechaCreacion=" + fechaCreacion + ", titulo=" + titulo + ", especialidad="
                 + especialidad + "]";
     }

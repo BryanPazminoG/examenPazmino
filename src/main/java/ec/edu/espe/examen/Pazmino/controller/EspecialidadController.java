@@ -28,7 +28,7 @@ public class EspecialidadController {
     }
 
     @GetMapping("/buscar")
-    public List<Especialidad> buscarPorNombre(@RequestParam String patron) {
+    public Especialidad buscarPorNombre(@RequestParam String patron) {
         return especialidadService.buscarPorPatron(patron);
     }
 

@@ -27,7 +27,7 @@ public class EspecialidadService {
         }
     }
 
-    public List<Especialidad> buscarPorPatron(String patron) {
+    public Especialidad buscarPorPatron(String patron) {
         try{
             return especialidadRepository.findByCodigo(patron);
         } catch (Exception e) {
